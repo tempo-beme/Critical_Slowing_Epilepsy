@@ -1,7 +1,23 @@
 # Critical_Slowing_Epilepsy
 
-The code provided shows how to compute the autocorrelation and variance from iEEG data. Code assumes you
-have access to iEEG portal and are able to access data from there. 
+Sample code from Maturana et al. 2020 - Critical slowing down as a biomarker for seizure susceptibility. 
+Nature Communications
+
+Three files are included that will generate some of the figures from the paper, and other figures that 
+are similar but may vary due plots being made on a subset of data. 
+Code was written in Matlab 2017b
+
+Demo.m - will produce several results figures 
+Demo_methods.m - will produce some of the methods figures
+Demo_stats.m - will produce some of the population results
+
+Access to the trial data is necessary to plot the remaining figures. Some data, including all seizures are
+available on EpilepsyEcosystem.org. Additional data used in this study can be made available under a 
+collaborative agreement and upon reasonable request to corresponding author
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Additional code has been included to demonstrate how features from iEEG data was computed. To run the code
+you will need access to iEEG portal. 
 
 CSD_compute_features.m - Downloads data in chunks of ~30 mins. For each chunk, the data is divided into
 2-minute segments. In each segment, the variance and autocorrelation width is computed.
@@ -17,5 +33,5 @@ optimal threshold are recomputed and used until the next seizure.
 computed. Using the transition probabilities, the risk is randomly computed at each time. Forecasts in methods
 1 and 2 are compared to this random forecast
 
-For more details see Maturana et al. 2020 - Critical slowing down as a biomarker for seizure susceptibility. 
-Nature Communications
+
+
