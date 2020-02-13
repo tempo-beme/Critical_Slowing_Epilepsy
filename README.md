@@ -5,7 +5,8 @@ Nature Communications
 
 Three files are included that will generate some of the figures from the paper, and other figures that 
 are similar but may vary due plots being made on a subset of data. 
-Code was written in Matlab 2017b
+Code was written in Matlab 2017b and has only been tested on this version. To run, open matlab and load
+one of the files below.
 
 Demo.m - will produce several results figures 
 Demo_methods.m - will produce some of the methods figures
