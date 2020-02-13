@@ -16,7 +16,8 @@ Access to the trial data is necessary to plot the remaining figures. Some data, 
 available on EpilepsyEcosystem.org. Additional data used in this study can be made available under a 
 collaborative agreement and upon reasonable request to corresponding author
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
 Additional code has been included to demonstrate how features from iEEG data was computed. To run the code
 you will need access to iEEG portal. 
 
